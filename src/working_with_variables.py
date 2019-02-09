@@ -16,7 +16,7 @@ print(Age);
 print(Salary);
 print(Address);
 #### End of the print function with the print()
-print('###################################################################3')
+print('###################################################################')
 # check the type and print the type on the console 
 ## use str() this will convert the object into string that will help to print the function 
 print('Name is ' + str(type(Name)) + ' type');
