@@ -23,5 +23,11 @@ class TableClass():
             print('Even')
             return
         print('Odd')
+    
+    def addition(self):
+        Num1 = input('Enter First Number :  ')
+        Num2 = input('Enter Second Number : ')
+        Num3 = float(Num1) + float(Num2)
+        print('Number after addition : ' + str(Num3))
     #def __init__(self):
         #self.x=x
