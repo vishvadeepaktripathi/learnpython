@@ -40,11 +40,11 @@ class TableClass():
         if Num1 >= Num2:
             #Num3 = float(Num1) - float(Num2)
             Num3 = Num1 - Num2
-            print('After substraction 1 : ' +  str(Num3))
+            print('After substraction : ' +  str(Num3))
         elif Num2 >= Num1:
             #Num3 = float(Num2) - float(Num1)
             Num3 = Num2 - Num1
-            print('After substraction 2 : ' +  str(Num3))
+            print('After substraction : ' +  str(Num3))
         
     #def __init__(self):
         #self.x=x
