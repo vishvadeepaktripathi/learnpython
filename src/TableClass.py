@@ -31,13 +31,19 @@ class TableClass():
         print('Number after addition : ' + str(Num3))
         
     def substract(self):
-        Num1 = input('Enter First Number : ')
-        Num2 = input('Enter Second Number : ')
+        Num1 = float(input('Enter First Number : '))
+        Num2 = float(input('Enter Second Number : '))
+        #First need to convert input value then store into variable 
+        #otherwise will it prompt some wrong substraction value 
+        #Due to storage error if you will do the 100-50 = -50 
+        # adn this will becuase of conversation issue
         if Num1 >= Num2:
-            Num3 = float(Num1) - float(Num2)
+            #Num3 = float(Num1) - float(Num2)
+            Num3 = Num1 - Num2
             print('After substraction 1 : ' +  str(Num3))
         elif Num2 >= Num1:
-            Num3 = float(Num2) - float(Num1)
+            #Num3 = float(Num2) - float(Num1)
+            Num3 = Num2 - Num1
             print('After substraction 2 : ' +  str(Num3))
         
     #def __init__(self):
