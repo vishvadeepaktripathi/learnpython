@@ -3,6 +3,7 @@ Created on Dec 19, 2018
 
 @author: Vishva Deepak Tripathi
 '''
+from _ast import Num
 
 class TableClass():
     def userTable(self):
@@ -45,6 +46,10 @@ class TableClass():
             #Num3 = float(Num2) - float(Num1)
             Num3 = Num2 - Num1
             print('After substraction : ' +  str(Num3))
+        
+    def squarecalcualtion(self):
+        Num1 = float(input('Enter the number that you want to square : '))
+        print(Num1**2)
         
     #def __init__(self):
         #self.x=x
