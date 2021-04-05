@@ -19,7 +19,7 @@
 #-----------------------------------------
 #import funDateComparision
 #obj=funDateComparision.CompareDate("07/19/20")
-print(str(obj))
+#print(str(obj))
 
 #-----------------------------------------
 import funAribaDelivery
