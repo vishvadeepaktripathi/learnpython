@@ -12,10 +12,10 @@
 #w = mytableclass.even_odd(31)
 #w is None
 #-----------------------------------------
-#import funadd
-#from pickletools import string1
-#obj= funadd.add()
-##print(str(obj))
+import funadd
+from pickletools import string1
+obj= funadd.add()
+print(str(obj))
 #-----------------------------------------
 #import funDateComparision
 #obj=funDateComparision.CompareDate("07/19/20")
