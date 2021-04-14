@@ -17,9 +17,9 @@ from pickletools import string1
 obj= funadd.add()
 print(str(obj))
 #-----------------------------------------
-#import funDateComparision
-#obj=funDateComparision.CompareDate("07/19/20")
-#print(str(obj))
+import funDateComparision
+obj=funDateComparision.CompareDate("07/19/20")
+print(str(obj))
 
 #-----------------------------------------
 import funAribaDelivery
