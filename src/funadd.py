@@ -1,4 +1,6 @@
 import os
 def add():
-    result = 5+6
+    Num1 = float(input('Enter First Number : '))
+    Num2 = float(input('Enter Second Number : '))
+    result = Num1+Num2
     return result
